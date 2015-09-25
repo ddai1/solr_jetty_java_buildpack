@@ -128,7 +128,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
           wrapElement($element);
 
           // Call user-supplied (or default) onStart(), setting
-          //  it's this context to the file DOM element
+          //  its this context to the file DOM element
           var ret = settings.onStart.apply($element, [settings.params]);
 
           // let onStart have the option to cancel the upload
@@ -149,6 +149,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       //  with uninit() later, to allow updating that settings
       if ($element.data('ajaxUploader-setup') === true) return;
 
+      /*
       $element.change(function () {
         // since a new image was selected, reset the marker
         uploading_file = false;
@@ -159,6 +160,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
           upload_file();
         }
       });
+      //*/
 
       if (settings.submit_button == null) {
         // do nothing

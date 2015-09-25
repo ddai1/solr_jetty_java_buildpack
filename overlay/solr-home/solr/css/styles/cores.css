@@ -33,6 +33,11 @@ limitations under the License.
   width: 500px;
 }
 
+#content #cores.empty .requires-core
+{
+  display: none;
+}
+
 #content #cores #frame
 {
   float: right;
@@ -53,6 +58,7 @@ limitations under the License.
 #content #cores #frame .actions
 {
   margin-bottom: 20px;
+  min-height: 30px;
 }
 
 #content #cores .actions div.action
@@ -65,9 +71,19 @@ limitations under the License.
   display: none;
 }
 
+#content #cores .actions form .directory-note
+{
+  background-image: url( ../../img/ico/information-white.png );
+  background-position: 22% 1px;
+  color: #c0c0c0;
+}
+
 #content #cores .actions form .error
 {
-  color: #800;
+  background-image: url( ../../img/ico/cross-button.png );
+  background-position: 22% 1px;
+  color: #c00;
+  font-weight: bold;
   display: none;
 }
 
@@ -88,10 +104,16 @@ limitations under the License.
 #content #cores .actions form input,
 #content #cores .actions form select,
 #content #cores .actions form .buttons,
-#content #cores .actions form .error span
+#content #cores .actions form .note span
 {
   float: right;
-  width: 73%;
+  width: 71%;
+}
+
+#content #cores .actions form .note span
+{
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 #content #cores .actions form .buttons
@@ -106,12 +128,12 @@ limitations under the License.
 
 #content #cores .actions form button.submit span
 {
-  background-image: url(../../img/ico/tick.png);
+  background-image: url( ../../img/ico/tick.png );
 }
 
 #content #cores .actions form button.reset span
 {
-  background-image: url(../../img/ico/cross.png);
+  background-image: url( ../../img/ico/cross.png );
 }
 
 #content #cores .actions #add
@@ -122,7 +144,7 @@ limitations under the License.
 
 #content #cores .actions #add span
 {
-  background-image: url(../../img/ico/plus-button.png);
+  background-image: url( ../../img/ico/plus-button.png );
 }
 
 #content #cores .actions #unload
@@ -132,22 +154,22 @@ limitations under the License.
 
 #content #cores .actions #unload span
 {
-  background-image: url(../../img/ico/cross.png);
+  background-image: url( ../../img/ico/cross.png );
 }
 
 #content #cores .actions #reload span
 {
-  background-image: url(../../img/ico/arrow-circle.png);
+  background-image: url( ../../img/ico/arrow-circle.png );
 }
 
 #content #cores .actions #rename span
 {
-  background-image: url(../../img/ico/ui-text-field-select.png);
+  background-image: url( ../../img/ico/ui-text-field-select.png );
 }
 
 #content #cores .actions #swap span
 {
-  background-image: url(../../img/ico/arrow-switch.png);
+  background-image: url( ../../img/ico/arrow-switch.png );
 }
 
 #content #cores .actions #optimize
@@ -157,7 +179,7 @@ limitations under the License.
 
 #content #cores .actions #optimize span
 {
-  background-image: url(../../img/ico/hammer-screwdriver.png);
+  background-image: url( ../../img/ico/hammer-screwdriver.png );
 }
 
 #content #cores .actions div.action
@@ -170,12 +192,12 @@ limitations under the License.
   display: none;
   position: absolute;
   left: -50px;
-  top: 40;
+  top: 40px;
   padding: 10px;
 }
 
-#content #cores #data #core-data h2 { background-image: url(../../img/ico/box.png); }
-#content #cores #data #index-data h2 { background-image: url(../../img/ico/chart.png); }
+#content #cores #data #core-data h2 { background-image: url( ../../img/ico/box.png ); }
+#content #cores #data #index-data h2 { background-image: url( ../../img/ico/chart.png ); }
 
 #content #cores #data #index-data
 {
@@ -207,13 +229,13 @@ limitations under the License.
 
 #content #cores #data li dd.ico
 {
-  background-image: url(../../img/ico/slash.png);
+  background-image: url( ../../img/ico/slash.png );
   height: 20px;
 }
 
 #content #cores #data li dd.ico.ico-1
 {
-  background-image: url(../../img/ico/tick.png);
+  background-image: url( ../../img/ico/tick.png );
 }
 
 #content #cores #data li dd.ico span

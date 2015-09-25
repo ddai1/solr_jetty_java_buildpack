@@ -25,7 +25,7 @@ limitations under the License.
 
 #content #schema-browser.loaded
 {
-  background-image: url(../../img/div.gif);
+  background-image: url( ../../img/div.gif );
   background-position: 21% 0;
   background-repeat: repeat-y;
 }
@@ -145,7 +145,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .partial p
 {
-  background-image: url(../../img/ico/exclamation-button.png);
+  background-image: url( ../../img/ico/exclamation-button.png );
   background-position: 0 50%;
   padding-left: 21px;
 }
@@ -204,7 +204,7 @@ limitations under the License.
 #content #schema-browser #data #field .field-options .flags tbody .check
 {
   background-color: #fafdfa;
-  background-image: url(../../img/ico/tick.png);
+  background-image: url( ../../img/ico/tick.png );
   background-position: 50% 50%;
   text-align: center;
 }
@@ -254,14 +254,14 @@ limitations under the License.
 
 #content #schema-browser #data #field .field-options .analyzer p a.analysis span
 {
-  background-image: url(../../img/ico/question-white.png);
+  background-image: url( ../../img/ico/question-white.png );
   background-position: 0 50%;
   padding-left: 21px;
 }
 
 #content #schema-browser #data #field .field-options .analyzer p a.analysis:hover span
 {
-  background-image: url(../../img/ico/question.png);
+  background-image: url( ../../img/ico/question.png );
   color: #008;
 }
 
@@ -272,7 +272,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .field-options .analyzer .toggle
 {
-  background-image: url(../../img/ico/chevron-small-expand.png);
+  background-image: url( ../../img/ico/chevron-small-expand.png );
   background-position: 100% 50%;
   cursor: pointer;
   display: block;
@@ -281,7 +281,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .field-options .analyzer .open .toggle
 {
-  background-image: url(../../img/ico/chevron-small.png);
+  background-image: url( ../../img/ico/chevron-small.png );
 }
 
 #content #schema-browser #data #field .field-options .analyzer li
@@ -326,7 +326,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .field-options .analyzer ul dd
 {
-  background-image: url(../../img/ico/document-list.png);
+  background-image: url( ../../img/ico/document-list.png );
   background-position: 0 50%;
   color: #c0c0c0;
   padding-left: 21px;
@@ -334,12 +334,12 @@ limitations under the License.
 
 #content #schema-browser #data #field .field-options .analyzer ul dd.ico-0
 {
-  background-image: url(../../img/ico/slash.png);
+  background-image: url( ../../img/ico/slash.png );
 }
 
 #content #schema-browser #data #field .field-options .analyzer ul dd.ico-1
 {
-  background-image: url(../../img/ico/tick.png);
+  background-image: url( ../../img/ico/tick.png );
 }
 
 #content #schema-browser #data #field .head
@@ -361,7 +361,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .terminfo-holder .trigger button span
 {
-  background-image: url(../../img/ico/information.png);
+  background-image: url( ../../img/ico/information.png );
 }
 
 #content #schema-browser #data #field .terminfo-holder .status
@@ -375,7 +375,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .terminfo-holder.disabled .trigger button span
 {
-  background-image: url(../../img/ico/prohibition.png);
+  background-image: url( ../../img/ico/prohibition.png );
 }
 
 #content #schema-browser #data #field .terminfo-holder.disabled .status
@@ -390,7 +390,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .terminfo-holder.loaded .trigger .autoload
 {
-  background-image: url(../../img/ico/ui-check-box-uncheck.png);
+  background-image: url( ../../img/ico/ui-check-box-uncheck.png );
   background-position: 0 50%;
   color: #c0c0c0;
   display: block;
@@ -405,7 +405,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .terminfo-holder .trigger .autoload.on
 {
-  background-image: url(../../img/ico/ui-check-box.png);
+  background-image: url( ../../img/ico/ui-check-box.png );
   color: #333;
 }
 
@@ -439,7 +439,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .topterms-holder .head #query_link
 {
-  background-image: url(../../img/ico/question-white.png);
+  background-image: url( ../../img/ico/question-white.png );
   background-position: 0 50%;
   color: #c0c0c0;
   padding-left: 21px;
@@ -448,7 +448,7 @@ limitations under the License.
 
 #content #schema-browser #data #field .topterms-holder .head #query_link:hover
 {
-  background-image: url(../../img/ico/question.png);
+  background-image: url( ../../img/ico/question.png );
 }
 
 

@@ -32,6 +32,7 @@ require
     'lib/order!lib/ZeroClipboard',
     'lib/order!lib/d3',
     'lib/order!lib/chosen',
+    'lib/order!lib/naturalSort',
     'lib/order!scripts/app',
 
     'lib/order!scripts/analysis',
@@ -40,7 +41,7 @@ require
     'lib/order!scripts/documents',
     'lib/order!scripts/dataimport',
     'lib/order!scripts/dashboard',
-    'lib/order!scripts/file',
+    'lib/order!scripts/files',
     'lib/order!scripts/index',
     'lib/order!scripts/java-properties',
     'lib/order!scripts/logging',
@@ -49,7 +50,8 @@ require
     'lib/order!scripts/query',
     'lib/order!scripts/replication',
     'lib/order!scripts/schema-browser',
-    'lib/order!scripts/threads'
+    'lib/order!scripts/threads',
+    'lib/order!scripts/segments'
   ],
   function( $ )
   {

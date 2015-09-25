@@ -172,12 +172,12 @@ ul
 
 .loader
 {
-  background-image: url(../../img/loader.gif) !important;
+  background-image: url( ../../img/loader.gif ) !important;
 }
 
 .loader-light
 {
-  background-image: url(../../img/loader-light.gif) !important;
+  background-image: url( ../../img/loader-light.gif ) !important;
 }
 
 #wrapper
@@ -195,9 +195,15 @@ ul
   z-index: 42;
 }
 
+.scroll #header
+{
+  position: absolute;
+}
+
 #header #solr
 {
-  background-image: url(../../img/solr.png);
+  background-image: url( ../../img/solr.svg );
+  background-size: 128px;
   display: block;
   height: 78px;
   width: 150px;
@@ -224,7 +230,7 @@ ul
 #main.error .message
 {
   background-color: #f00;
-  background-image: url(../../img/ico/construction.png);
+  background-image: url( ../../img/ico/construction.png );
   background-position: 10px 50%;
   color: #fff;
   font-weight: bold;
@@ -267,15 +273,15 @@ ul
   background-color: #f0f0f0;
 }
 
-#meta .documentation a { background-image: url(../../img/ico/document-text.png); }
-#meta .issues a { background-image: url(../../img/ico/bug.png); }
-#meta .irc a { background-image: url(../../img/ico/users.png); }
-#meta .mailinglist a { background-image: url(../../img/ico/mail.png); }
-#meta .wiki-query-syntax a { background-image: url(../../img/ico/script-code.png); }
+#meta .documentation a { background-image: url( ../../img/ico/document-text.png ); }
+#meta .issues a { background-image: url( ../../img/ico/bug.png ); }
+#meta .irc a { background-image: url( ../../img/ico/users.png ); }
+#meta .mailinglist a { background-image: url( ../../img/ico/mail.png ); }
+#meta .wiki-query-syntax a { background-image: url( ../../img/ico/script-code.png ); }
 
 #environment
 {
-  background-image: url(../../img/ico/box.png);
+  background-image: url( ../../img/ico/box.png );
   background-position: 5px 50%;
   display: none;
   font-weight: bold;
@@ -565,7 +571,7 @@ pre.syntax .tex .formula
 #content .tree ins
 {
   background-color: transparent;
-  background-image: url(../../img/tree.png);
+  background-image: url( ../../img/tree.png );
   background-repeat: no-repeat; 
 }
 
@@ -606,14 +612,20 @@ pre.syntax .tex .formula
   background:#beebff; border:1px solid #99defd; padding:0 2px 0 1px;
 }
 
+#content .tree a.active
+{
+  background-color: #f0f0f0;
+  color: #00f;
+}
+
 #content .tree a .jstree-icon
 {
-  background-image: url(../../img/ico/folder.png);
+  background-image: url( ../../img/ico/folder.png );
 }
 
 #content .tree .jstree-leaf a .jstree-icon
 {
-  background-image: url(../../img/ico/document-text.png);
+  background-image: url( ../../img/ico/document-text.png );
 }
 
 #content .tree .jstree-search
@@ -634,7 +646,7 @@ pre.syntax .tex .formula
 
 #connection_status span
 {
-  background-image: url(../../img/ico/network-status-busy.png);
+  background-image: url( ../../img/ico/network-status-busy.png );
   background-position: 0 50%;
   color: #800;
   padding-left: 26px;
@@ -648,7 +660,7 @@ pre.syntax .tex .formula
 
 #connection_status.online span
 {
-  background-image: url(../../img/ico/network-status.png);
+  background-image: url( ../../img/ico/network-status.png );
 }
 
 #connection_status.online span a
@@ -664,7 +676,7 @@ pre.syntax .tex .formula
 #content .address-bar
 {
   margin-bottom: 10px;
-  background-image: url(../../img/ico/ui-address-bar.png);
+  background-image: url( ../../img/ico/ui-address-bar.png );
   background-position: 5px 50%;
   border: 1px solid #f0f0f0;
   box-shadow: 1px 1px 0 #f0f0f0;
