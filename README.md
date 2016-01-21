@@ -4,7 +4,7 @@
 This buildpack will install:
 * Oracle JDK 1.8
 * Jetty web server 8.1.12
-* SOLR 5.3.1
+* SOLR 5.4.0
 * MongoDB 2.6.0
 
 #SOLR Config
